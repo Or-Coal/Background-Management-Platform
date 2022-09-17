@@ -12,7 +12,7 @@ import VueQuillEditor from 'vue-quill-editor'
 //配置请求根路径
 import TreeTable from 'vue-table-with-tree-grid'
 import NProgress from 'nprogress'
-axios.defaults.baseURL='http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL='http://43.143.172.198:8888/api/private/v1/'
 //在request拦截器中，展示进度条NProgress.start()
 NProgress.start()
 axios.interceptors.request.use(config=>{
