@@ -17,7 +17,7 @@ import 'quill/dist/quill.bubble.css' // for bubble theme
 import TreeTable from 'vue-table-with-tree-grid'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-axios.defaults.baseURL='http://43.143.172.198:8888/api/private/v1/'
+axios.defaults.baseURL='http://heshicheng.cn:8888/api/private/v1/'
 //在request拦截器中，展示进度条NProgress.start()
 NProgress.start()
 axios.interceptors.request.use(config=>{
